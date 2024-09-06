@@ -7,12 +7,12 @@ const ChatPage = () => {
   return (
     <div className="w-screen h-screen flex">
       {/* Left Side - MyChats */}
-      <div className="w-2/5 bg-zinc-950 border-r-2 border-white mt-20">
+      <div className="w-2/5 bg-zinc-950 border-r-2 border-white mt-16">
         <MyChats />
       </div>
 
       {/* Right Side - Chat Section */}
-      <div className="w-3/5 flex flex-col">
+      <div className="w-3/5 flex flex-col  mt-16">
         {/* Sticky User Component */}
         <div className="sticky top-0 z-10 bg-black border-b-2 border-white">
           <User name="Soubhik Singha Mahapatra" userId="soubhik_smp" />

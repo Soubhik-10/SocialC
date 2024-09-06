@@ -8,7 +8,7 @@ interface UserProps {
 //need to make it a navlink for future navigation to the profile
 const User: React.FC<UserProps> = ({ profilePic, name, userId }) => {
   return (
-    <div className="flex items-center p-2 sm:p-4 w-full bg-zinc-950 hover:bg-zinc-800 ">
+    <div className="flex items-center p-2 sm:p-2 w-full bg-zinc-950 hover:bg-zinc-800 ">
       {/* Profile Picture */}
       <img
         src={profilePic}
