@@ -10,6 +10,7 @@ import SideBar from "./components/SideBar";
 import Header from "./components/Header";
 import Login from "./pages/Login";
 import ChatPage from "./pages/ChatPage";
+import ViewProfile from "./pages/Profile";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -48,6 +49,14 @@ const App: React.FC = () => {
           element={
             <Layout>
               <ChatPage />
+            </Layout>
+          }
+        />
+        <Route
+          path="/profile"
+          element={
+            <Layout>
+              <ViewProfile />
             </Layout>
           }
         />
